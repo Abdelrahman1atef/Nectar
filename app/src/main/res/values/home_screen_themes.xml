@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SearchBarStyle">
+        <item name="android:drawableStart">@drawable/searchicon</item>
+        <item name="android:drawablePadding">9dp</item>
+        <item name="android:hint">@string/search_store</item>
+        <item name="android:fontFamily">@font/gilroy_semibold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="BannerBackgroundStyle">
+        <item name="android:background">@drawable/banner_background</item>
+    </style>
+    <style name="CardViewStyle">
+        <item name="android:background">@drawable/card_view_bg</item>
+    </style>
+    <style name="CardViewProductTextStyle">
+        <item name="android:fontFamily">@font/gilroy_bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="CardViewProductPriceTextStyle">
+        <item name="android:fontFamily">@font/gilroy_semibold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="CardViewBtnStyle">
+        <item name="android:background">@drawable/add_to_cart_btn_bg</item>
+    </style>
+    <style name="MainTitleTextStyle">
+        <item name="android:fontFamily">@font/gilroy_semibold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+    <style name="MainCardBtnStyle">
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:fontFamily">@font/gilroy_semibold</item>
+        <item name="android:textColor">@color/prime_color</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.home.UI.FragmentWelcomePage">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_pec" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/nectar_logo_solo"
+        app:layout_constraintBottom_toTopOf="@id/welcome_to_"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/welcome_to_"
+        style="@style/welcomeTextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginBottom="130dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/welcome_to_our_store"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/ger_your_gr"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|top"
+        android:text="@string/ger_your_groceries_in_as_fast_as_one_hour"
+        style="@style/welcomeCommentTextStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/welcome_to_" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/getStarted"
+        style="@style/GetStartedButton_welcomePage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="30.5dp"
+        android:paddingVertical="15dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/get_started"
+        app:layout_constraintTop_toBottomOf="@id/ger_your_gr" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="prime_color">#53B175</color>
+    <color name="spalsh_bg_night">#163120</color>
+    <color name="comment_color">#828282</color>
+    <color name="GoogleButton">#5383EC</color>
+    <color name="FacebookButton">#4A66AC</color>
+
+</resources>
